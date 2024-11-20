@@ -1,0 +1,6 @@
+@GoCycleAPI_HostAddress = http://localhost:5208
+
+GET {{GoCycleAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
