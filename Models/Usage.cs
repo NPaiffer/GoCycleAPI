@@ -17,7 +17,7 @@ namespace GoCycleAPI.Models
         public int Score { get; set; }
 
         [ForeignKey("Profile")]
-        public string ProfileCPF { get; set; }
-        public Profile Profile { get; set; }
+        public string ProfileCPF { get; set; }  = string.Empty;
+        public Profile Profile { get; set; } = null!;
     }
 }

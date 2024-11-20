@@ -9,13 +9,13 @@ namespace GoCycleAPI.Models
         public int TelephoneId { get; set; }
 
         [MaxLength(10)]
-        public string DDD { get; set; }
+        public string DDD { get; set; } = string.Empty;
 
         [MaxLength(25)]
-        public string Number { get; set; }
+        public string Number { get; set; } = string.Empty;
 
         [ForeignKey("Profile")]
-        public string ProfileCPF { get; set; }
-        public Profile Profile { get; set; }
+        public string ProfileCPF { get; set; } = string.Empty;
+        public Profile Profile { get; set; } = null!;
     }
 }

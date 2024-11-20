@@ -9,24 +9,25 @@ namespace GoCycleAPI.Models
         public int AddressId { get; set; }
 
         [MaxLength(100)]
-        public string Street { get; set; }
+        public string Street { get; set; } = string.Empty;
 
         [MaxLength(100)]
-        public string? AdditionalInfo { get; set; }
+        public string AdditionalInfo { get; set; } = string.Empty;
 
         public int Number { get; set; }
 
         [MaxLength(100)]
-        public string City { get; set; }
+        public string City { get; set; } = string.Empty;
 
         [MaxLength(100)]
-        public string State { get; set; }
+        public string State { get; set; } = string.Empty;
 
         [MaxLength(100)]
-        public string ZipCode { get; set; }
+        public string ZipCode { get; set; } = string.Empty;
 
         [ForeignKey("Profile")]
-        public string ProfileCPF { get; set; }
-        public Profile Profile { get; set; }
+        public string ProfileCPF { get; set; } = string.Empty;
+
+        public Profile Profile { get; set; } = null!;
     }
 }

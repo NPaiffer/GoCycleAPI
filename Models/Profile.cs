@@ -6,23 +6,22 @@ namespace GoCycleAPI.Models
     public class Profile
     {
         [Key]
-        public string CPF { get; set; }
+        public string CPF { get; set; } = string.Empty;
 
         public DateTime Birthdate { get; set; }
 
         [MaxLength(30)]
-        public string Username { get; set; }
+        public string Username { get; set; } = string.Empty;
 
         public int Score { get; set; }
 
         [MaxLength(100)]
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
 
         [ForeignKey("User")]
         public int UserId { get; set; }
-        public User User { get; set; }
+        public User User { get; set; } = null!;
 
-        // Relacionamento 1:N
-        public ICollection<Telephone> Telephones { get; set; }
+        public ICollection<Telephone> Telephones { get; set; } = null!;
     }
 }

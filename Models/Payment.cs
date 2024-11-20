@@ -11,10 +11,10 @@ namespace GoCycleAPI.Models
         public float Amount { get; set; }
 
         [MaxLength(20)]
-        public string Type { get; set; }
+        public string Type { get; set; } = string.Empty;
 
         [ForeignKey("Usage")]
         public int UsageId { get; set; }
-        public Usage Usage { get; set; }
+        public Usage Usage { get; set; } = null!;
     }
 }
