@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using ProjectName.Models;
+using GoCycleAPI.Models;
 
-namespace ProjectName.Data
+namespace GoCycleAPI.Data
 {
     public class AppDbContext : DbContext
     {

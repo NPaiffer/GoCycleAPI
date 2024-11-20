@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GoCycleAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07a3dcc21ac0df8aa7c0e0ea40b61bcb69307966")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e8886861ded2d011e7ff5db3d33c2223813afbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("GoCycleAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GoCycleAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
