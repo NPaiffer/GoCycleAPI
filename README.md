@@ -1,3 +1,5 @@
+Integrantes: Alissa Silva Cezero - RM552535, Melissa Barbosa de Souza - RM552535, Nicolas Paiffer do Carmo - RM554145
+---
 # **GoCycle API**
 
 Uma aplicação **.NET Web API** desenvolvida para gerenciar usuários e dados relacionados ao sistema **GoCycle**. Um aplicativo que promove a utilização de bicicletas e afins para locomoção, algo como alugar e preservar o meio ambiente, recebendo pontos acumulaveis em estabelecimentos parceiros. Este projeto utiliza o **Entity Framework Core** para interagir com um banco de dados Oracle, incluindo o uso de repositórios, validações com Data Annotations e documentação interativa via Swagger.
